@@ -1,0 +1,10 @@
+{
+  "name": "turn-timer",
+  "title": "Combat Turn Timer",
+  "description": "Track the duration of each player's turn in combat.",
+  "version": "1.0.0",
+  "author": "Your Name",
+  "scripts": ["scripts/turn-timer.js"],
+  "minimumCoreVersion": "0.7.9",
+  "compatibleCoreVersion": "0.8.x"
+}
