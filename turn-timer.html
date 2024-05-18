@@ -1,0 +1,16 @@
+<div>
+    <h2>Combat Turn Times</h2>
+    {{#each players as |player name|}}
+    <div>
+        <h3>{{name}}</h3>
+        <p>Average Time: {{player.average}} seconds</p>
+        <p>Median Time: {{player.median}} seconds</p>
+        <ul>
+            {{#each player.turns as |turn|}}
+            <li>{{turn}} seconds</li>
+            {{/each}}
+        </ul>
+    </div>
+    {{/each}}
+    <button id="reset-stats">Reset Statistics</button>
+</div>
